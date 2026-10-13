@@ -1,0 +1,943 @@
+{
+  "images": [
+    {
+      "key": "omelet",
+      "filename": "omelet.jpg",
+      "url": "https://images.unsplash.com/photo-1510693206972-df098062cb71?auto=format&fit=crop&w=900&h=1050&q=42&fm=jpg",
+      "license": "https://unsplash.com/license",
+      "photographer": "Eaters Collective",
+      "source_page": "https://unsplash.com/photos/omelette-on-black-plate-6rtm6a_aVyE",
+      "source": "Unsplash",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "visual_description": "Baked egg and cheese dish in a skillet",
+      "bytes": 175772,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true
+    },
+    {
+      "key": "bowl",
+      "filename": "bowl.jpg",
+      "url": "https://images.unsplash.com/photo-1636044992119-be0892f9de94?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "license": "https://unsplash.com/license",
+      "photographer": "nrd",
+      "source_page": "https://unsplash.com/photos/a-white-bowl-filled-with-chicken-rice-tomatoes-and-avocado-k7luFw-7rGk",
+      "source": "Unsplash",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "visual_description": "Salmon with rice, avocado and cherry tomatoes. Source page incorrectly describes the fish as chicken. Use for salmon bowls or label as a category illustration.",
+      "bytes": 168324,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true
+    },
+    {
+      "key": "chicken",
+      "filename": "chicken.jpg",
+      "url": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "license": "https://unsplash.com/license",
+      "source": "Unsplash",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "visual_description": "Grilled chicken breast with vegetables and lemon",
+      "bytes": 194701,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true
+    },
+    {
+      "key": "salmon",
+      "filename": "salmon.jpg",
+      "url": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "license": "https://unsplash.com/license",
+      "source": "Unsplash",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "visual_description": "Cooked fish with vegetables on a restaurant plate",
+      "bytes": 136892,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true
+    },
+    {
+      "key": "pasta",
+      "filename": "pasta.jpg",
+      "url": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "license": "https://unsplash.com/license",
+      "source": "Unsplash",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "visual_description": "Farfalle pasta with green pesto and tomato",
+      "bytes": 154113,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true
+    },
+    {
+      "key": "salad",
+      "filename": "salad.jpg",
+      "url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&h=1050&q=52&fm=jpg",
+      "license": "https://unsplash.com/license",
+      "source": "Unsplash",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "visual_description": "Vegetable bowl with avocado, chickpeas and leafy greens",
+      "bytes": 173596,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true
+    },
+    {
+      "key": "soup",
+      "filename": "soup.jpg",
+      "url": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=900&h=1050&q=62&fm=jpg",
+      "license": "https://unsplash.com/license",
+      "source": "Unsplash",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "visual_description": "Orange vegetable puree soup with garnish",
+      "bytes": 186848,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true
+    },
+    {
+      "key": "pancakes",
+      "filename": "pancakes.jpg",
+      "url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "license": "https://unsplash.com/license",
+      "source": "Unsplash",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "visual_description": "Pancake stack with berries and banana",
+      "bytes": 154758,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true
+    },
+    {
+      "key": "oats",
+      "filename": "oats.jpg",
+      "url": "https://images.unsplash.com/photo-1517673400267-0251440c45dc?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "license": "https://unsplash.com/license",
+      "source": "Unsplash",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "visual_description": "Oatmeal bowls with berries and kiwi",
+      "bytes": 169127,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true
+    },
+    {
+      "key": "toast",
+      "filename": "toast.jpg",
+      "url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "license": "https://unsplash.com/license",
+      "source": "Unsplash",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "visual_description": "Avocado toast with a fried egg",
+      "bytes": 142923,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true
+    },
+    {
+      "key": "dessert",
+      "filename": "dessert.jpg",
+      "url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "license": "https://unsplash.com/license",
+      "source": "Unsplash",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "visual_description": "White cream/yogurt dessert in glasses with strawberries",
+      "bytes": 111228,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true
+    },
+    {
+      "key": "rice",
+      "filename": "rice.jpg",
+      "url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&h=1050&q=62&fm=jpg",
+      "license": "https://unsplash.com/license",
+      "source": "Unsplash",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "visual_description": "Seasoned rice with cashews and citrus",
+      "bytes": 190381,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true
+    },
+    {
+      "key": "potato",
+      "filename": "potato.jpg",
+      "url": "https://images.unsplash.com/photo-1743514888000-5d431afad20a?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "license": "https://unsplash.com/license",
+      "photographer": "Kristina Tochilko",
+      "source_page": "https://unsplash.com/photos/roasted-potatoes-are-served-in-a-pan-38ILeDhaXng",
+      "source": "Unsplash",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "visual_description": "Roasted potatoes in a pan",
+      "bytes": 150757,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true
+    },
+    {
+      "key": "beef",
+      "filename": "beef.jpg",
+      "url": "https://images.unsplash.com/photo-1598577789978-b87168a57b69?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "license": "https://unsplash.com/license",
+      "photographer": "Hanxiao Xu",
+      "source_page": "https://unsplash.com/photos/grilled-meat-on-black-plate-aLHhsDbj1Iw",
+      "source": "Unsplash",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "visual_description": "Grilled steak on a black plate",
+      "bytes": 173080,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true
+    },
+    {
+      "key": "smoothie",
+      "filename": "smoothie.jpg",
+      "url": "https://images.unsplash.com/photo-1502741224143-90386d7f8c82?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "license": "https://unsplash.com/license",
+      "source": "Unsplash",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "visual_description": "Strawberry smoothie in a glass",
+      "bytes": 86530,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true
+    },
+    {
+      "key": "crepes-1",
+      "filename": "crepes-1.jpg",
+      "url": "https://images.unsplash.com/photo-1656057205408-4a0a62cf2dfb?auto=format&fit=crop&w=900&h=1050&q=52&fm=jpg",
+      "source_page": "https://unsplash.com/photos/0MuOPAOFjrc",
+      "photographer": "Svitlana",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/crepes",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 172720,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Thin folded crepes served with berries and cream"
+    },
+    {
+      "key": "crepes-2",
+      "filename": "crepes-2.jpg",
+      "url": "https://images.unsplash.com/photo-1597524305544-cd821476715f?auto=format&fit=crop&w=900&h=1050&q=42&fm=jpg",
+      "source_page": "https://unsplash.com/photos/26NcU5Vkd5o",
+      "photographer": "M Draa",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/crepes",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 192483,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Thin homemade crepes on a decorated plate"
+    },
+    {
+      "key": "pasta-cream-1",
+      "filename": "pasta-cream-1.jpg",
+      "url": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/-5FECW242og",
+      "photographer": "Zoran Borojevic",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/carbonara",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 125464,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Spaghetti with a pale creamy cheese sauce"
+    },
+    {
+      "key": "pasta-cream-2",
+      "filename": "pasta-cream-2.jpg",
+      "url": "https://images.unsplash.com/photo-1546549032-9571cd6b27df?auto=format&fit=crop&w=900&h=1050&q=52&fm=jpg",
+      "source_page": "https://unsplash.com/photos/t8hTmte4O_g",
+      "photographer": "Bruna Branco",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/carbonara",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 196435,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Creamy spaghetti carbonara on plates"
+    },
+    {
+      "key": "soup-broth-1",
+      "filename": "soup-broth-1.jpg",
+      "url": "https://images.unsplash.com/photo-1470324161839-ce2bb6fa6bc3?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/WBX-ZLr8P7I",
+      "photographer": "Piotr Miazga",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/chicken-noodle-soup",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 84527,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Vegetable and noodle broth served in a ladle"
+    },
+    {
+      "key": "soup-broth-2",
+      "filename": "soup-broth-2.jpg",
+      "url": "https://images.unsplash.com/photo-1607330289024-1535c6b4e1c1?auto=format&fit=crop&w=900&h=1050&q=62&fm=jpg",
+      "source_page": "https://unsplash.com/photos/otLqpb9LK70",
+      "photographer": "Max Griss",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/chicken-noodle-soup",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 198429,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Asian noodle soup with creamy orange broth and vegetables; use for ramen-style soups"
+    },
+    {
+      "key": "risotto-1",
+      "filename": "risotto-1.jpg",
+      "url": "https://images.unsplash.com/photo-1682428617976-f25633ed8469?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/7TaFlRyAhSQ",
+      "photographer": "Luna Hu",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/risotto",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 74739,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Creamy risotto with cheese crisp"
+    },
+    {
+      "key": "risotto-2",
+      "filename": "risotto-2.jpg",
+      "url": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/qIPRTMulc-g",
+      "photographer": "Julien Pianetti",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/risotto",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 72826,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Creamy rice risotto with herbs and mushrooms"
+    },
+    {
+      "key": "pizza-1",
+      "filename": "pizza-1.jpg",
+      "url": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&h=1050&q=52&fm=jpg",
+      "source_page": "https://unsplash.com/photos/MQUqbmszGGM",
+      "photographer": "Ivan Torres",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/pizza",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 177279,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Cheese and mushroom pizza slices"
+    },
+    {
+      "key": "pizza-2",
+      "filename": "pizza-2.jpg",
+      "url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&h=1050&q=52&fm=jpg",
+      "source_page": "https://unsplash.com/photos/MqT0asuoIcU",
+      "photographer": "Chad Montano",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/pizza",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 199080,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Chicken and red onion pizza"
+    },
+    {
+      "key": "wrap-1",
+      "filename": "wrap-1.jpg",
+      "url": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/Spp1G283dow",
+      "photographer": "Max Griss",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/chicken-wrap",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 150931,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Filled tortilla wrap with rice, beans and greens"
+    },
+    {
+      "key": "wrap-2",
+      "filename": "wrap-2.jpg",
+      "url": "https://images.unsplash.com/photo-1666819615040-eff5e52c778a?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/0Pr5YeRW3Z4",
+      "photographer": "Leanna Myers",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/chicken-wrap",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 139879,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Chicken wrap with leafy salad"
+    },
+    {
+      "key": "salad-greek-1",
+      "filename": "salad-greek-1.jpg",
+      "url": "https://images.unsplash.com/photo-1606735584785-1848fdcaea57?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/JXcgx_U7eh4",
+      "photographer": "Loes Klinker",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/greek-salad",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 135960,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Greek salad with feta, cucumber, tomato and onion"
+    },
+    {
+      "key": "salad-caesar",
+      "filename": "salad-caesar.jpg",
+      "url": "https://images.unsplash.com/photo-1599021419847-d8a7a6aba5b4?auto=format&fit=crop&w=900&h=1050&q=52&fm=jpg",
+      "source_page": "https://unsplash.com/photos/J5eOPeFqcuY",
+      "photographer": "Frames For Your Heart",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/greek-salad",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 188821,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Caesar-style chicken salad with leafy greens and shaved cheese; not Greek salad"
+    },
+    {
+      "key": "stew-1",
+      "filename": "stew-1.jpg",
+      "url": "https://images.unsplash.com/photo-1664741662725-bd131742b7b7?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/y_7KLDoPlAc",
+      "photographer": "Laura Ohlman",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/beef-stew",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 157696,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Brown beef stew with carrot and potato"
+    },
+    {
+      "key": "stew-2",
+      "filename": "stew-2.jpg",
+      "url": "https://images.unsplash.com/photo-1608500219063-e5164085cd6f?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/JXYdIWqA5IM",
+      "photographer": "Nathan Dumlao",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/beef-stew",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 189385,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Beef and vegetable stew"
+    },
+    {
+      "key": "casserole-1",
+      "filename": "casserole-1.jpg",
+      "url": "https://images.unsplash.com/photo-1546453570-d2fcacdafbb2?auto=format&fit=crop&w=900&h=1050&q=42&fm=jpg",
+      "source_page": "https://unsplash.com/photos/q5C-_coAZR4",
+      "photographer": "sheri silver",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/casserole",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 188580,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Baked pasta casserole with tomato and cheese"
+    },
+    {
+      "key": "casserole-2",
+      "filename": "casserole-2.jpg",
+      "url": "https://images.unsplash.com/photo-1654780105295-9227206f11ec?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/UN1mx680neg",
+      "photographer": "David Trinks",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/casserole",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 111171,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Golden baked casserole in a ceramic dish"
+    },
+    {
+      "key": "meatballs-1",
+      "filename": "meatballs-1.jpg",
+      "url": "https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=900&h=1050&q=62&fm=jpg",
+      "source_page": "https://unsplash.com/photos/OFismyezPnY",
+      "photographer": "Emiliano Vittoriosi",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/meatballs",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 187110,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Browned meatballs with leafy greens"
+    },
+    {
+      "key": "meatballs-2",
+      "filename": "meatballs-2.jpg",
+      "url": "https://images.unsplash.com/photo-1515516969-d4008cc6241a?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/AUAuEgUxg5Q",
+      "photographer": "Jason Leung",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/meatballs",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 141537,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Meatballs in red tomato sauce with pasta"
+    },
+    {
+      "key": "porridge-1",
+      "filename": "porridge-1.jpg",
+      "url": "https://images.unsplash.com/photo-1515544645059-de313dd20a58?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/IooxyWj2uso",
+      "photographer": "Deryn Macey",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/porridge",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 166423,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Creamy oatmeal with banana, nuts and chocolate"
+    },
+    {
+      "key": "porridge-2",
+      "filename": "porridge-2.jpg",
+      "url": "https://images.unsplash.com/photo-1501432781167-c0ccfd492297?auto=format&fit=crop&w=900&h=1050&q=62&fm=jpg",
+      "source_page": "https://unsplash.com/photos/z5bPsP916QA",
+      "photographer": "Monika Grabkowska",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/porridge",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 195771,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Creamy porridge with orange, kiwi and cashews"
+    },
+    {
+      "key": "pasta-red-1",
+      "filename": "pasta-red-1.jpg",
+      "url": "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?auto=format&fit=crop&w=900&h=1050&q=52&fm=jpg",
+      "source_page": "https://unsplash.com/photos/PLyJqEJVre0",
+      "photographer": "Vinn Koonyosying",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/pasta",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 173776,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Spaghetti in tomato sauce on a plate"
+    },
+    {
+      "key": "pasta-red-2",
+      "filename": "pasta-red-2.jpg",
+      "url": "https://images.unsplash.com/photo-1751151497799-8b4057a2638e?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/canKcjh_xn4",
+      "photographer": "Zoshua Colah",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/pasta",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 170428,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Spaghetti in tomato sauce in a wok"
+    },
+    {
+      "key": "hummus",
+      "filename": "hummus.jpg",
+      "url": "https://images.unsplash.com/photo-1637949385162-e416fb15b2ce?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/yr-sW_x9aHk",
+      "photographer": "Ludovic Avice",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/hummus",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 181821,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Chickpea hummus with olive oil and paprika"
+    },
+    {
+      "key": "tofu",
+      "filename": "tofu.jpg",
+      "url": "https://images.unsplash.com/photo-1596352670192-5a95e357df7b?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/v-zpEVeWjy0",
+      "photographer": "Sherman Kwan",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/tofu",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 121647,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Chilled silken tofu with soy sauce and toppings; category illustration for tofu"
+    },
+    {
+      "key": "cheesecake",
+      "filename": "cheesecake.jpg",
+      "url": "https://images.unsplash.com/photo-1524351199678-941a58a3df50?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/s8_7AqkzCWY",
+      "photographer": "Tina Guina",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/cheesecake",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 77449,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Plain creamy cheesecake slice with berries"
+    },
+    {
+      "key": "apple-pie",
+      "filename": "apple-pie.jpg",
+      "url": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/D7X-GMeTV7U",
+      "photographer": "Diliara Garifullina",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/apple-crumble",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 131312,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Apple pie slice with pastry crust; not a loose crumble"
+    },
+    {
+      "key": "noodles-1",
+      "filename": "noodles-1.jpg",
+      "url": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/pbc2wXbQYpI",
+      "photographer": "ikhsan baihaqi",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/noodles",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 163837,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Asian fried noodles on a dark plate"
+    },
+    {
+      "key": "noodles-2",
+      "filename": "noodles-2.jpg",
+      "url": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=900&h=1050&q=52&fm=jpg",
+      "source_page": "https://unsplash.com/photos/wEBg_pYtynw",
+      "photographer": "Orijit Chatterjee",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/noodles",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 168043,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Stir-fried noodles with vegetables"
+    },
+    {
+      "key": "baked-apple",
+      "filename": "baked-apple.jpg",
+      "url": "https://images.unsplash.com/photo-1676289869007-8ebccd8923a7?auto=format&fit=crop&w=900&h=1050&q=52&fm=jpg",
+      "source_page": "https://unsplash.com/photos/pImp9uVuMrc",
+      "photographer": "Liia",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/baked-apples",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 171948,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Baked apple halves filled with chopped nuts"
+    },
+    {
+      "key": "soup-green",
+      "filename": "soup-green.jpg",
+      "url": "https://images.unsplash.com/photo-1578859318509-62790b079366?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/x4l4U-pHF9s",
+      "photographer": "Samee Anderson",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/broccoli-soup",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 148705,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Creamy broccoli soup with florets"
+    },
+    {
+      "key": "soup-mushroom",
+      "filename": "soup-mushroom.jpg",
+      "url": "https://images.unsplash.com/photo-1659603851579-17755833517e?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/auTqcVC96X4",
+      "photographer": "Green And Great",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/mushroom-soup",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 120670,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Creamy mushroom soup topped with mushrooms"
+    },
+    {
+      "key": "waffles",
+      "filename": "waffles.jpg",
+      "url": "https://images.unsplash.com/photo-1568051243851-f9b136146e97?auto=format&fit=crop&w=900&h=1050&q=52&fm=jpg",
+      "source_page": "https://unsplash.com/photos/vWjvnhkjziI",
+      "photographer": "Joyful",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/waffles",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 172532,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Waffles with berries and powdered sugar"
+    },
+    {
+      "key": "curry",
+      "filename": "curry.jpg",
+      "url": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/ZSukCSw5VV4",
+      "photographer": "amirali mirhashemian",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/chicken-curry",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 149066,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Chicken in orange curry sauce served with flatbread"
+    },
+    {
+      "key": "crumble-1",
+      "filename": "crumble-1.jpg",
+      "url": "https://images.unsplash.com/photo-1605698802040-b783f33b49a5?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/5KfHxQGbZyA",
+      "photographer": "Max Nayman",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/apple-crumble",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 140225,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Apple crumble with nuts, served as a crumbly slice"
+    },
+    {
+      "key": "crumble-2",
+      "filename": "crumble-2.jpg",
+      "url": "https://images.unsplash.com/photo-1622219783350-b544b2d2bd24?auto=format&fit=crop&w=900&h=1050&q=72&fm=jpg",
+      "source_page": "https://unsplash.com/photos/BEy7TTOpxBo",
+      "photographer": "Karolina Kołodziejczak",
+      "source": "Unsplash",
+      "license": "https://unsplash.com/license",
+      "standard_listing": "https://unsplash.com/s/photos/apple-crumble",
+      "display_label": "Фото для вдохновения; готовое блюдо может отличаться.",
+      "bytes": 189776,
+      "dimensions": [
+        900,
+        1050
+      ],
+      "visually_checked": true,
+      "visual_description": "Apple and rhubarb crumble baked in individual ramekins"
+    }
+  ],
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "verified_at": "2026-10-14",
+  "guidance": "Category illustrations, not photos of the exact recipes. Display a clear illustration label. No image generation or local editing; images downloaded at requested crop and size from Unsplash. All are standard Unsplash images (not Unsplash+).",
+  "visual_qa": "All 52 distinct food photos visually inspected in contact sheets. Greek-list Caesar photo renamed salad-caesar; pie renamed apple-pie. Crumble photos checked separately. Every recipe image is JPEG, 900x1050, below 200000 bytes. Retailer banner images are separate.",
+  "brand_assets": [
+    {
+      "file": "freshmarket-logo.svg",
+      "source": "https://www.freshmarket28.ru/wp-content/themes/pro100/images/logo-f.svg",
+      "note": "Official FreshMarket logo used in requested prototype"
+    },
+    {
+      "file": "avoska-logo.png",
+      "source": "https://www.freshmarket28.ru/wp-content/themes/pro100/images/avoska-p.png",
+      "note": "Official Avoska logo used in requested prototype"
+    }
+  ],
+  "retailer_banners": [
+    {
+      "file": "promo-game.jpg",
+      "source": "https://www.freshmarket28.ru/wp-content/uploads/2026/10/BigBon_1496x391_recomposed-1.jpg",
+      "note": "Official retailer banner used to demonstrate existing app carousel. No claim of current offer terms."
+    },
+    {
+      "file": "promo-price.jpg",
+      "source": "https://www.freshmarket28.ru/wp-content/uploads/2026/10/ТОП-цена-05.2026-сайт.jpg",
+      "note": "Official retailer banner used to demonstrate existing app carousel. No claim of current offer terms."
+    },
+    {
+      "file": "promo-bonus.jpg",
+      "source": "https://www.freshmarket28.ru/wp-content/uploads/2026/04/бонусы-круглый-год_сайт-1496х391.jpg",
+      "note": "Official retailer banner used to demonstrate existing app carousel. No claim of current offer terms."
+    },
+    {
+      "file": "promo-gifts.jpg",
+      "source": "https://www.freshmarket28.ru/wp-content/uploads/2026/02/1496х391_подарочные-карты_new.jpg",
+      "note": "Official retailer banner used to demonstrate existing app carousel. No claim of current offer terms."
+    }
+  ],
+  "recipe_photo_count": 52
+}
