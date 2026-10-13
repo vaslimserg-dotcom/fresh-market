@@ -35,4 +35,6 @@ html[data-store="avoska"] .sidebar{background:#fffdf8;border-top:5px solid #f8dc
 @media(max-width:1000px){.integration-columns{grid-template-columns:1fr}.integration-card{padding:22px}.integration-card .mini-icon{float:left;margin-right:14px}.integration-card h3{margin-top:4px}}
 @media(max-width:720px){.integration-entry{padding:16px 14px;gap:9px}.integration-entry strong{font-size:12px}.integration-entry small{font-size:9px}.integration-lead{padding:24px 20px}.integration-lead h2{font-size:25px}.integration-lead p{font-size:12px}.integration-flow{gap:7px}.integration-flow span{font-size:9px;padding:9px}.integration-flow svg{width:12px}.integration-list summary{font-size:13px;padding:18px 14px;gap:10px}.integration-list details>div{padding:0 17px 20px;font-size:12px}.integration-note{padding:22px 18px}.integration-note h3{font-size:16px}}
 
-.photo-credit{margin-top:14px;font-size:10px;color:var(--muted);overflow-wrap:anywhere}.photo-credit summary{cursor:pointer;padding:8px 0}.photo-credit p{font-size:10px;line-height:1.7;padding-bottom:5px}.photo-credit a{text-decoration:underline}
+.photo-credit{margin-top:14px;font-size:12px;color:var(--muted);overflow-wrap:anywhere}.photo-credit summary{cursor:pointer;padding:10px 0}.photo-credit p{font-size:12px;line-height:1.7;padding-bottom:5px}.photo-credit a{text-decoration:underline}
+/* Comfortable mobile input size also prevents involuntary zoom in iOS Safari. */
+@media(max-width:720px){.field input,.field select,.shop-search input,.searchbar input{font-size:16px}.mobile-nav button{font-size:10px}}

@@ -1,21 +1,21 @@
-import { PRODUCTS, RECIPES } from './data.js';
-import { SHOP_EXTRAS } from './shop-data.js';
-export const ALL_PRODUCTS={...PRODUCTS,...SHOP_EXTRAS};
+import { PRODUCTS, RECIPES } from './data.js?v=20261014-450';
+import { SHOP_EXTRAS } from './shop-data.js?v=20261014-450';
+export const ALL_PRODUCTS=Object.assign(Object.create(null),PRODUCTS,SHOP_EXTRAS);
 export const PRODUCT_ALIASES={shop_015:'turnip',shop_016:'sweet_potato',shop_024:'green_onion',shop_032:'sorrel',shop_204:'squid',shop_251:'polenta',shop_257:'green_lentils',shop_261:'split_peas',shop_278:'lasagna',shop_317:'brussels',shop_339:'puff_pastry'};
-export const canonicalProduct=id=>PRODUCT_ALIASES[id]||id;
+export const canonicalProduct=id=>typeof id==='string'&&Object.hasOwn(PRODUCT_ALIASES,id)?PRODUCT_ALIASES[id]:id;
 export const STORE_KEY = 'freshmarket-beta-v1';
-export const byId = Object.fromEntries(RECIPES.map(r => [r.id,r]));
+export const byId = Object.assign(Object.create(null),Object.fromEntries(RECIPES.map(r => [r.id,r])));
 export const defaults = () => ({version:1,portionPolicy:2,store:'fresh',selected:[],favorites:[],disliked:[],skipped:[],cooked:[],pantry:[],manual:{},productFavorites:[],fulfillment:{mode:'delivery',address:''},history:[],profile:{goal:'balance',height:170,weight:70,target:65,age:30,activity:'medium',servings:1,kcal:2000,kcalMode:'auto',sex:'unspecified',vegetarian:false,allergens:[],excluded:'',liked:'',maxTime:60,budget:400,configured:false}});
 export function sanitize(raw) {
  const s=defaults(); if(!raw||raw.version!==1)return s;
  s.store=raw.store==='avoska'?'avoska':'fresh';
  if(raw.manual&&typeof raw.manual==='object'&&!Array.isArray(raw.manual))for(const [oldId,n] of Object.entries(raw.manual)){const id=canonicalProduct(oldId);if(ALL_PRODUCTS[id]&&Number.isFinite(+n)&&+n>0)s.manual[id]=Math.max(s.manual[id]||0,Math.min(99,Math.floor(+n)));}
- s.productFavorites=[...new Set((Array.isArray(raw.productFavorites)?raw.productFavorites:[]).map(canonicalProduct).filter(id=>ALL_PRODUCTS[id]))];
+ s.productFavorites=[...new Set((Array.isArray(raw.productFavorites)?raw.productFavorites:[]).map(canonicalProduct).filter(id=>typeof id==='string'&&ALL_PRODUCTS[id]))];
  if(raw.fulfillment&&typeof raw.fulfillment==='object'){s.fulfillment.mode=raw.fulfillment.mode==='pickup'?'pickup':'delivery';s.fulfillment.address=typeof raw.fulfillment.address==='string'?raw.fulfillment.address.slice(0,160):'';}
 
- for(const k of ['favorites','disliked','skipped','cooked']) s[k]=[...new Set((Array.isArray(raw[k])?raw[k]:[]).filter(x=>byId[x]))];
- s.pantry=[...new Set((Array.isArray(raw.pantry)?raw.pantry:[]).filter(x=>PRODUCTS[x]))];
- const seen=new Set(); s.selected=(Array.isArray(raw.selected)?raw.selected:[]).filter(x=>x&&byId[x.id]&&!seen.has(x.id)&&seen.add(x.id)).map(x=>({id:x.id,portions:raw.portionPolicy===2?Math.max(1,Math.min(12,Math.round(Number(x.portions)||1))):1,day:Math.max(0,Math.min(6,Math.round(Number(x.day)||0)))}));
+ for(const k of ['favorites','disliked','skipped','cooked']) s[k]=[...new Set((Array.isArray(raw[k])?raw[k]:[]).filter(x=>typeof x==='string'&&byId[x]))];
+ s.pantry=[...new Set((Array.isArray(raw.pantry)?raw.pantry:[]).filter(x=>typeof x==='string'&&Object.hasOwn(PRODUCTS,x)))];
+ const seen=new Set(); s.selected=(Array.isArray(raw.selected)?raw.selected:[]).filter(x=>x&&typeof x.id==='string'&&byId[x.id]&&!seen.has(x.id)&&seen.add(x.id)).map(x=>({id:x.id,portions:raw.portionPolicy===2?Math.max(1,Math.min(12,Math.round(Number(x.portions)||1))):1,day:Math.max(0,Math.min(6,Math.round(Number(x.day)||0)))}));
  if(raw.profile&&typeof raw.profile==='object') {const p=raw.profile;
   for(const [k,min,max] of [['height',100,230],['weight',30,250],['target',30,250],['age',18,100],['kcal',1200,4500],['maxTime',10,180],['budget',50,1500]]) if(Number.isFinite(+p[k])) s.profile[k]=Math.max(min,Math.min(max,+p[k]));
   if(['balance','lose','gain','explore'].includes(p.goal))s.profile.goal=p.goal;
@@ -99,6 +99,7 @@ export function basket(s){
  }).sort((a,b)=>a.atHome-b.atHome||a.aisle.localeCompare(b.aisle,'ru')||a.name.localeCompare(b.name,'ru'));
 }
 export function setProductCount(s,id,count){
+ if(typeof id!=='string')return false;
  id=canonicalProduct(id);
  if(!ALL_PRODUCTS[id]||!Number.isFinite(+count))return false;
  if(!s.manual)s.manual={};
@@ -111,7 +112,7 @@ export function productAllowed(p,profile){
  if((p.allergens||[]).some(a=>profile.allergens.includes(a)))return false;
  return !tasteTerms(profile.excluded).some(word=>productMatches(p,word));
 }
-export function addRecipe(s,id,day=0){if(!byId[id]||s.selected.some(r=>r.id===id))return false;s.selected.push({id,portions:1,day});s.skipped=s.skipped.filter(x=>x!==id);return true;}
+export function addRecipe(s,id,day=0){if(typeof id!=='string'||!byId[id]||!eligible(byId[id],s.profile)||s.selected.some(r=>r.id===id))return false;s.selected.push({id,portions:1,day:Math.max(0,Math.min(6,Math.round(Number(day)||0)))});s.skipped=s.skipped.filter(x=>x!==id);return true;}
 export function removeRecipe(s,id){s.selected=s.selected.filter(x=>x.id!==id);}
 function tasteContext(s){return {liked:s.favorites.map(id=>byId[id]).filter(Boolean),disliked:(s.disliked||[]).map(id=>byId[id]).filter(Boolean),terms:tasteTerms(s.profile.liked)};}
 export function recommendationScore(r,s,seed='',taste=tasteContext(s)){
